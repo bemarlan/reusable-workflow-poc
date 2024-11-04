@@ -1,0 +1,8 @@
+# .github/workflows/caller-workflow.yml
+name: Caller Workflow
+
+on: [push]
+
+jobs:
+  call-reusable-workflow:
+    uses: devx-poc/reusable-workflow/.github/workflows/reusable-workflow.yml@main
